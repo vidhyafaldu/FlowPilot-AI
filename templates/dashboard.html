@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>FlowPilot AI | Dashboard</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+    <div class="dashboard-container">
+
+        <header class="header">
+            <div class="brand">
+                <h1>FlowPilot <span>AI</span></h1>
+                <p>Autonomous Business Operations</p>
+            </div>
+
+            <div class="system-status">
+                <span class="status-dot"></span>
+                System Online
+            </div>
+        </header>
+
+        <main class="main-content">
+
+            <section class="welcome-section">
+                <p class="subtitle">FINANCE AUTOMATION</p>
+
+                <h2>Business Operations Dashboard</h2>
+
+                <p class="welcome-text">
+                    Manage invoices, automate verification,
+                    process approvals and monitor exceptions
+                    from one intelligent workspace.
+                </p>
+            </section>
+
+            <section class="stats-grid">
+
+                <div class="stat-card">
+                    <p>Total Invoices</p>
+                    <h3>0</h3>
+                    <span>Invoices received</span>
+                </div>
+
+                <div class="stat-card">
+                    <p>Automated</p>
+                    <h3>0</h3>
+                    <span>Processed automatically</span>
+                </div>
+
+                <div class="stat-card">
+                    <p>Pending Approvals</p>
+                    <h3>0</h3>
+                    <span>Waiting for review</span>
+                </div>
+
+                <div class="stat-card">
+                    <p>Exceptions</p>
+                    <h3>0</h3>
+                    <span>Requires attention</span>
+                </div>
+
+            </section>
+
+            <section class="workflow-section">
+
+                <h2>Automation Workflow</h2>
+
+                <div class="workflow-grid">
+
+                    <div class="workflow-card">
+                        <span class="step-number">01</span>
+                        <h3>Invoice Intake</h3>
+                        <p>Receive invoice documents.</p>
+                    </div>
+
+                    <div class="workflow-card">
+                        <span class="step-number">02</span>
+                        <h3>AI Extraction</h3>
+                        <p>Extract invoice information.</p>
+                    </div>
+
+                    <div class="workflow-card">
+                        <span class="step-number">03</span>
+                        <h3>Validation</h3>
+                        <p>Verify vendors, amounts and purchase orders.</p>
+                    </div>
+
+                    <div class="workflow-card">
+                        <span class="step-number">04</span>
+                        <h3>Decision Engine</h3>
+                        <p>Apply automation and approval rules.</p>
+                    </div>
+
+                    <div class="workflow-card">
+                        <span class="step-number">05</span>
+                        <h3>Final Action</h3>
+                        <p>Process, approve, hold or flag.</p>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </main>
+
+        <footer class="footer">
+            FlowPilot AI · Intelligent Invoice Automation
+        </footer>
+
+    </div>
+
+</body>
+</html>
